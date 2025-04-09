@@ -27,7 +27,7 @@ const App = () => {
           
 
           </div>
-          <h3 style={{ marginBottom: "5px" }}>Bio :</h3>
+          <h3 style={{ marginBottom: "5px", color: "white" }}>Bio :</h3>
           Software Engineer (Full-Stack JS Developer) and AI/ML Enthusiast with
           over <span className="highlighted-text">3 years</span> of experience
           in Web Application / Software Development. Specialize in user-centric
@@ -35,7 +35,7 @@ const App = () => {
         </div>
 
         <div className="work-experience">
-          <h3 style={{ marginBottom: "5px", marginTop: "40px" }}>
+          <h3 style={{ marginBottom: "5px", marginTop: "40px", color: "white" }}>
             Work Experience :
           </h3>
 
@@ -85,9 +85,10 @@ const App = () => {
         </div>
 
         <div className="projects">
-          <h3 style={{ marginBottom: "5px", marginTop: "40px" }}>Projects :</h3>
+          <h3 style={{ marginBottom: "5px", marginTop: "40px", color: "white" }}>Projects :</h3>
 
-          <div className="card">
+          <div className="project-grid">
+          <div className="card-project">
             <strong>Xpress Sewa </strong>{" "}
             <small>
               <a target="_blank" href="https://xpressewa.com">
@@ -102,7 +103,7 @@ const App = () => {
             <br />
             <p></p>
           </div>
-          <div className="card">
+          <div className="card-project">
             <strong>MyPay Digital Wallet </strong>{" "}
             <small>
               <a target="_blank" href="https://customer.mypay.com.np">
@@ -116,7 +117,7 @@ const App = () => {
             <br />
             <p></p>
           </div>
-          <div className="card">
+          <div className="card-project">
             <strong>Agent Module </strong>{" "}
             <small>
               <a target="_blank" href="https://agent.mypay.com.np">
@@ -130,7 +131,7 @@ const App = () => {
             <br />
             <p></p>
           </div>
-          <div className="card">
+          <div className="card-project">
             <strong>MyPay Gold Customer Portal </strong>{" "}
             <small>
               <a target="_blank" href="https://www.mypaygold.com">
@@ -145,7 +146,7 @@ const App = () => {
             <br />
             <p></p>
           </div>
-          <div className="card">
+          <div className="card-project">
             <strong>Voting Platform (International / National) </strong>{" "}
             <small>
               <a target="_blank" href="https://voting.mypay.com.np">
@@ -160,7 +161,7 @@ const App = () => {
             <br />
             <p></p>
           </div>
-          <div className="card">
+          <div className="card-project">
             <strong>Market Place Admin Portal </strong>
             <br />
             <small>
@@ -170,7 +171,7 @@ const App = () => {
             <br />
             <p></p>
           </div>
-          <div className="card">
+          <div className="card-project">
             <strong>Shree Om Mandir Admin Portal </strong>
             <br />
             <small>
@@ -179,16 +180,21 @@ const App = () => {
             <br />
             <p></p>
           </div>
+          </div>
+
+        
         </div>
 
         <div className="about-me">
-          <h3 style={{ marginBottom: "5px", marginTop: "40px" }}>
+          <h3 style={{ marginBottom: "5px", marginTop: "40px", color: "white" }}>
             About Me :
           </h3>
 
           Software Engineer (Full-Stack JS Developer) and AI/ML Enthusiast with
           over <span className="highlighted-text">3 years</span> of experience
-          in Web Application / Software Development. Specialize in user-centric 
+          in Web Application / Software Development. Specialize in user-centric. Software Engineer (Full-Stack JS Developer) and AI/ML Enthusiast with
+          over <span className="highlighted-text">3 years</span> of experience
+          in Web Application / Software Development. Specialize in user-centric.
 
                   
 
@@ -200,7 +206,7 @@ const App = () => {
 
           Feel free to reach out to me via email at ayushniraula82@gmail.com, as I continuously check my inbox and am open to collaboration and new opportunities.
          <br /> <br /><br /> <br />
-         <strong>Ayush Niraula</strong>
+         <strong style={{color: "white"}}>Ayush Niraula</strong>
          <br />
          <img src={signature} alt="" style={{height: "90px"}}/>
         </div>

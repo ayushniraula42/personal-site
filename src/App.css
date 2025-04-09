@@ -16,6 +16,8 @@
   margin: 0 auto;
   max-width: 600px;
   margin-top: 70px;
+  letter-spacing: 0.05em;
+
 }
 
 .logo{
@@ -55,4 +57,33 @@ height: 200px;
   color: #999999;
 text-decoration: underline;
 margin-right: 10px;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-project {
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  background-color: rgba(41, 41, 41, 0.9); /* Light background */
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-project strong, 
+.card-project small, 
+.card-project p {
+  background: transparent !important; /* Remove black background */
+  padding: 0; /* Remove any extra padding */
+}
+
+.card-project a {
+  background: transparent !important; /* Remove black background */
+  padding: 0; /* Remove any extra padding */
+  color: #999999;
 }
